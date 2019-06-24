@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/nav_right_bg">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/user_icon"
+        android:src="@drawable/usericon"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/user_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="墨痕熙"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:id="@+id/user_name"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="一世浮生空若梦，十里春风得意生"
+        android:id="@+id/user_signature"/>
+</RelativeLayout>
