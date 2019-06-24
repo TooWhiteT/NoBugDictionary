@@ -1,1 +1,2 @@
-# NoBugDictionary
+#NoBugDictionary
+在原来的毕业设计上做的修改和扩充，主要减少了activity的使用，界面优化,多用fragmen替代activity，功能扩充了成语查询并集成了第三方百度语音合成，暂时未进行输入判断
